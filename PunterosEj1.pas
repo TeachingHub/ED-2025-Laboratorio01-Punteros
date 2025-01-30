@@ -1,42 +1,40 @@
-{ 
-    Programa que demuestra el uso de punteros en Pascal 
-}
+program ej1; 
 
-program PunterosEj1;
-
-uses
-    ctr;
+type
+tPtrInt = ^integer;
 
 var
-    { Declara variable entera (x) }
-    { Declara una variable de tipo puntero a entero (p_ent) }
+x: integer;
+PtrInt: tPtrInt;
 
 begin
+	x:= 100;
 
-    { Da el valor 100 a x }
+	new(PtrInt);
 
-    { Crea un entero dinámicamente con p_ent y dale el valor que tiene actualmente x }
+	PtrInt^:= x;
 
-    { Imprime por pantalla el valor contenido en el entero al que apunta p_ent }
+	writeln(PtrInt^);
 
-    { Crea con new un nuevo entero dinámicamente }
+	new(PtrInt);
 
-    { Imprime por pantalla el valor contenido en el entero al que apunta p_ent }
+	PtrInt:= @x;
 
-    { Pon el puntero p_ent a apuntar a x }
+	PtrInt^:= PtrInt^ + 100;
 
-    { Súmale 100 al entero apuntado por el puntero p_ent }
+	writeln(x);
+	writeln(PtrInt^);
 
-    { Imprime por pantalla el valor de x y también del entero al que apunta p_ent }
+	PtrInt:= nil;
 
-    { Pon el puntero p_ent a NIL }
+	dispose(PtrInt);
 
-    { Libera la memoria asociada al nuevo entero }
+	PtrInt:= @x;
+	PtrInt^:= PtrInt^ + 100;
 
-    { Suma 100 a x pero sin usar x en la operación de suma (solo usando p_ent) }
+	writeln('PtrInt^ = x :', PtrInt^ = x);
 
-    { Muestra por pantalla que son iguales }
+	dispose(PtrInt);
 
-    { Libera toda la memoria asociada a p_ent y termina }
-
+	PtrInt:= nil;
 end.
