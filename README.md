@@ -125,21 +125,21 @@ Deberás implementar:
 - Cada participante apuntará al otro como su pareja
 
 
-6. Crea un procedimiento para **inicializar la isla**:
+5. Crea un procedimiento para **inicializar la isla**:
 - Por cada dos parejas debe haber un tentador
 - Las parejas deben inicializarse juntas (cada miembro apuntando al otro)
 - Los tentadores comienzan sin estar emparejados (puntero a nil)
 - Los participantes se almacenarán en el array de manera ordenada, ¿cómo podrías hacerlo para no tener que determinar el rol de cada persona del array?
 
 
-5. Implementa un procedimiento que **muestre el estado actual de la isla**, incluyendo para cada participante:
+6. Implementa un procedimiento que **muestre el estado actual de la isla**, incluyendo para cada participante:
 - Nombre y edad
 - Su rol (pareja o tentador)
 - Para participantes en pareja: el nombre de su pareja actual
 - Para participantes que eran pareja pero ya no tienen pareja: mostrar "Infiel"
 - Para tentadores que han conseguido emparejar: mostrar "Tentó a: [nombre]"
 
-6. Implementa un procedimiento para **simular una ronda de tentación**:
+7. Implementa un procedimiento para **simular una ronda de tentación**:
 - Selección aleatoria de una pareja para ser tentada
 - Selección aleatoria de un tentador
 - Decisión aleatoria de qué miembro de la pareja será tentado (50% de probabilidad)
@@ -148,7 +148,7 @@ Deberás implementar:
   * Si hay infidelidad: la pareja original se rompe y se forma una nueva con el tentador
   * Si no hay infidelidad: solo se muestra el intento fallido
 
-7. Finalmente, implementa el programa principal que:
+8. Finalmente, implementa el programa principal que:
 - Muestre el estado actual de la isla
 - Pregunte al usuario si desea continuar con otra ronda
 - Ejecute rondas de tentación hasta que el usuario decida terminar
