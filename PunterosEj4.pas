@@ -46,7 +46,7 @@ begin
 end;
 
 { 5. Implementa un subprograma que ponga todos los punteros que no lo estén, a NIL }
-procedure NilArray(ptrArray: tparray);
+procedure NilArray(var ptrArray: tparray);
 begin
     // Implementar este procedimiento
     WriteLn('No implementado todavía');
@@ -77,4 +77,6 @@ begin
         WriteLn('Pulsa una tecla para continuar...');
         ReadKey;
     until option = '0';
+
+    NilArray(ptrArray);
 end.
