@@ -73,10 +73,9 @@ papel lo que ocurre tras ejecutar cada instrucción:
 2. Crea un entero en cada una de las posiciones inicializado a un número aleatorio 
 3. Implementa un procedimiento que muestre por pantalla el contenido de cada posición  
 4. Implementa un procedimiento que ponga a cero todos los números
-5. Implementa un subprograma que ponga todos los punteros que no lo estén, a NIL 
+5. Implementa un procedimiento que ponga todos los punteros que no lo estén, a NIL 
 6. Implementa una función que calcule el máximo número del array (debes comprobar  antes, pues puede que alguna posición no tenga un número y esté a NIL) 
-7. Implementa una función que compute la suma de todos los enteros (de nuevo 
-asegúrate de no intentar sumar los que estén a NIL)
+7. Implementa una función que compute la suma de todos los enteros (de nuevo  asegúrate de no intentar sumar los que estén a NIL)
 
 
 ## Ejercicio 5 (Nivel medio)
@@ -86,10 +85,10 @@ asegúrate de no intentar sumar los que estén a NIL)
 1. Declara un tipo coordenada_3D para puntos con coordenadas x,y,z
 2. Declara un array de MAX punteros a coordenadas_3D
 3. Crea una coordenada_3D en cada una de las posiciones inicializado todas las  coordenadas con números aleatorios
-4. Implementa un subprograma que libere la memoria asignada a una posición  
+4. Implementa un procedimiento que libere la memoria asignada a una posición  
 5. Implementa un función que sume todas las x  
-6. (Opcional) Implementa un subprograma que permita añadir una coordenada en la primera  posición libre del array
-7. Implementa un subprograma que calcule la máxima coordenada y (debes comprobar  antes, pues puede que alguna posición no tenga coordenada y esté a NIL)
+6. (Opcional) Implementa un procedimiento que permita añadir una coordenada en la primera  posición libre del array
+7. Implementa una función que calcule la máxima coordenada y (debes comprobar  antes, pues puede que alguna posición no tenga coordenada y esté a NIL)
 
 
 

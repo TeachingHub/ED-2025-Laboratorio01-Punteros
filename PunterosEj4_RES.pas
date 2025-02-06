@@ -78,7 +78,7 @@ begin
     end;
 end;
 
-{ 5. Implementa un subprograma que ponga todos los punteros que no lo estén, a NIL }
+{ 5. Implementa un procedimiento que ponga todos los punteros que no lo estén, a NIL }
 procedure NilArray(var ptrArray: tparray);
 var
     i: Integer;

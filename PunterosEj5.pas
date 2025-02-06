@@ -27,10 +27,10 @@ var
 { * Implementa un procedimiento que muestre por pantalla el contenido de cada posición }
 
 
-{ 4. Implementa un subprograma que libere la memoria asignada a una posición }
+{ 4. Implementa un procedimiento que libere la memoria asignada a una posición }
 
 
-{ 4.' Implementa un subprograma que libere la memoria asignada a todas las posiciones }
+{ 4.' Implementa un procedimiento que libere la memoria asignada a todas las posiciones }
 
 
 { 5. Implementa una función que sume todas las x de las coordenadas }
@@ -39,12 +39,12 @@ var
 { 5.' Implementa una función que sume las coordenadas de todas las posiciones }
 
 
-{ 6. (Opcional) Implementa un subprograma que permita añadir una coordenada en la primera 
+{ 6. (Opcional) Implementa un procedimiento que permita añadir una coordenada en la primera 
     posición libre del array}
 
 
-{ 7. Implementa un subprograma que calcule la máxima coordenada y (debes comprobar  antes, 
-    pues puede que alguna posición no tenga coordenada y esté a NIL)}
+{ 7. Implementa una función que calcule la máxima coordenada y (debes comprobar  antes,
+     pues puede que alguna posición no tenga coordenada y esté a NIL)}
 
 
 begin
